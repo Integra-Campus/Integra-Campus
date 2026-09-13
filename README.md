@@ -1,82 +1,54 @@
-# 🎓 Integra Campus
+# 📱 Integra Campus
 
 **SuperApp educacional para o uso consciente, seguro e pedagógico de smartphones na educação básica.**
 
 Projeto desenvolvido pela equipe **Hack'n Roll** para o **HackaTudo 2026**.
 
+> Em vez de perguntar *"como proibir celulares?"*, o Integra Campus parte de uma pergunta diferente:
+> **Como transformar o smartphone em um instrumento seguro, pedagógico e saudável para estudantes, professores e famílias?**
+
 ---
 
-## 📌 Sobre o projeto
+## 📖 Sobre o projeto
 
-O crescimento do uso de smartphones entre crianças e adolescentes trouxe desafios reais para a escola: distração, queda de desempenho, ansiedade e uso sem mediação. Ao mesmo tempo, a proibição total do celular também não resolve o problema sozinha.
+O crescimento do uso de smartphones entre crianças e adolescentes mudou profundamente o ambiente escolar, trazendo desafios de aprendizagem, atenção, saúde mental, convivência e segurança digital. O uso excessivo e sem mediação está associado à queda de desempenho, ansiedade, problemas de sono e cyberbullying — mas a proibição total e isolada também apresenta resultados limitados.
 
-O **Integra Campus** propõe um modelo de **regulação contextual**: em vez de proibir o celular, o app o transforma em ferramenta pedagógica quando autorizado pelo professor — e bloqueia distrações no momento certo.
+O **Integra Campus** propõe um modelo de **regulação contextual** em vez de proibição irrestrita, integrando cinco eixos principais em um único SuperApp:
 
-A proposta é sustentada por uma revisão de **36 referências científicas (2012–2026)**, pela legislação brasileira (Lei nº 15.100/2025 e LGPD), por documentos da UNESCO e por uma entrevista de campo com um professor da rede pública paulista e do Centro Paula Souza.
-
-### Os cinco eixos da solução
-
-| Módulo | O que faz |
+| Módulo | Função |
 |---|---|
-| 🛡️ **Modo Sala de Foco** | Bloqueia apps de distração durante atividades autorizadas pelo professor (whitelist/blacklist contextual) |
-| 🏫 **Campus Virtual** | Biblioteca, cursos complementares, aulas síncronas, notas e presença |
-| 👨‍👩‍👧 **Controle Parental e Educacional** | Painel transparente para os responsáveis, alertas inteligentes e campanha de conscientização |
-| 🏆 **Gamificação e Banco de Horas** | XP, badges, missões e desafios para engajar o estudante |
-| 🤖 **IA Educacional** | Perfil dinâmico do aluno, recomendações personalizadas e apoio ao professor (sem substituir o docente) |
+| 🔒 **Modo Sala de Foco** | Whitelist/blacklist de aplicativos durante atividades autorizadas pelo professor |
+| 🎓 **Campus Virtual** | Biblioteca digital, cursos complementares, aulas síncronas, notas e presença |
+| 👨‍👩‍👧 **Controle Parental e Educacional** | Painel transparente, alertas inteligentes e campanha de conscientização para famílias |
+| 🏆 **Gamificação e Banco de Horas** | XP, badges, missões e desafios para reforçar hábitos de estudo |
+| 🤖 **IA Educacional** | Perfil dinâmico do estudante, recomendações personalizadas, correção inicial e relatórios automáticos para o professor |
+
+A proposta se apoia em **36 referências científicas (2012–2026)**, legislação brasileira, documentos da UNESCO, notícias sobre regulação de plataformas digitais e uma **entrevista de campo** com um professor da rede pública paulista e do Centro Paula Souza, usada como validação qualitativa da solução.
 
 ---
 
-## 🌐 Páginas do projeto
+## 🎯 Contexto e justificativa
 
-| Página | Descrição |
-|---|---|
-| [`Home Page`](Integra-Campus.github.io) | Página inicial do projeto — apresentação, solução e equipe |
-| [`Documentação`](Integra-Campus.github.io/documentacao.html) | Leitor estilizado do documento completo do projeto (HackaTudo) |
-| [`Simulação PC`](https://integra-campus.github.io/simulacao_app.html) | Simulação interativa em formato de dashboard (desktop), com os 4 perfis de acesso |
-| [`Simulação App`](https://integra-campus.github.io/simulacao.html) | Protótipo interativo do **app mobile**, em mockup de celular |
+Em janeiro de 2025, a **Lei nº 15.100/2025** passou a restringir o uso de celulares na educação básica durante todo o período escolar, com exceções pedagógicas — mas sem oferecer infraestrutura para viabilizar esse uso educativo. Existe uma lacuna entre a legislação (que restringe) e a infraestrutura tecnológica das escolas (que não oferece controle contextual).
 
-## 📱 Protótipo do app mobile — `simulacao_app.html`
-
-Simulação navegável do aplicativo em formato de celular, cobrindo os quatro perfis de acesso (**Aluno, Professor, Responsável e Escola**) e demonstrando na prática os conceitos centrais do projeto:
-
-- **Modo Sala de Foco** — ativar o modo bloqueia, em tempo real, apps recreativos (Instagram, TikTok, WhatsApp, YouTube) e libera apenas apps pedagógicos (Google Classroom, Calculadora, Biblioteca). A tentativa de abrir um app bloqueado dispara um modal de bloqueio e um alerta automático para o professor.
-- **Painel de alertas do professor** — feedback em tempo real sobre o uso dos apps na turma, sem precisar observar tela por tela.
-- **Gamificação (Banco de Horas)** — concluir tarefas soma XP e gera notificações de conquista.
-- **Alertas para os responsáveis** — o mesmo fluxo de alertas do professor é refletido, de forma transparente, no app dos pais.
-
-Basta abrir o arquivo `simulacao_app.html` em um navegador — não há dependências externas além das fontes do Google Fonts.
+O Integra Campus surge como resposta a essa lacuna, integrando gestão escolar, aprendizagem móvel, gamificação baseada em evidências, controle parental transparente, IA adaptativa, proteção da saúde mental e conformidade com a **LGPD** em uma única plataforma.
 
 ---
 
-## 🎨 Identidade visual
+## 🏗️ Arquitetura da solução
 
-| Elemento | Valor |
-|---|---|
-| Fundo | `#F0F2F5` |
-| Azul (Aluno/Professor) | `#B9D8F2` · `#8AB6E1` · `#6FA3D6` |
-| Laranja (Responsável) | `#F5A623` |
-| Roxo (Gamificação) | `#9013FE` |
-| Verde (Sucesso/Liberado) | `#2F7D3A` |
-| Vermelho (Alerta/Bloqueio) | `#D0021B` |
-| Texto principal / secundário | `#23282E` · `#5B6470` |
-| Tipografia | [Inter](https://fonts.google.com/specimen/Inter) |
-| Estilo | Cantos arredondados, cards brancos com sombra suave, visual clean e moderno |
+O sistema foi concebido como uma plataforma multiplataforma (Android e iOS) com **quatro perfis de acesso**:
 
----
+- **Aluno** — Campus Virtual, atividades, gamificação, cursos, biblioteca e bem-estar digital.
+- **Professor** — Modo Sala de Foco, criação de atividades, alertas, relatórios e comunicação.
+- **Responsável** — Acompanhamento escolar, notificações e mediação digital.
+- **Gestão Escolar** — Configuração institucional, políticas de uso, analytics e integração com sistemas escolares.
 
-## 🗂️ Estrutura do repositório
+O aplicativo possui **funcionamento parcial offline** (Modo Sala de Foco, blacklist local e gamificação funcionam sem internet), atendendo à realidade de escolas com conectividade limitada, e prevê integração com sistemas já existentes (Sala do Futuro, Google Classroom, Microsoft Teams Educação).
 
-```
-.
-├── index.html              # Página inicial
-├── documentacao.html        # Documentação do projeto (leitor do PDF)
-├── simulacao.html            # Simulação dashboard (desktop)
-├── simulacao_app.html        # Protótipo do app mobile (mockup de celular)
-├── styles.css                 # Estilos compartilhados do site
-└── assets/
-    ├── Integra_Campus.pdf     # Documento completo do projeto (HackaTudo)
-    └── Referencias.zip        # Pacote com as referências científicas
-```
+### Privacidade e LGPD
+
+O tratamento de dados segue a **Lei Geral de Proteção de Dados (Lei nº 13.709/2018)**: coleta mínima, finalidade exclusivamente educacional, transparência e **nenhum acesso a mensagens, fotos ou conteúdo de tela do estudante**. O professor recebe apenas alertas de comportamento digital (ex.: tentativa de abrir app bloqueado), nunca o conteúdo da tela do aluno.
 
 ---
 
@@ -84,22 +56,44 @@ Basta abrir o arquivo `simulacao_app.html` em um navegador — não há dependê
 
 Pesquisa aplicada, de abordagem qualitativa e quantitativa, combinando:
 
-- Revisão bibliográfica (36 referências científicas, 2012–2026)
-- Análise documental da legislação brasileira (Lei nº 15.100/2025 e LGPD)
-- Entrevista semiestruturada com um professor com mais de 25 anos de experiência na rede pública de SP e no Centro Paula Souza (setembro de 2026)
+- **Revisão bibliográfica** — 36 referências científicas (metanálises, revisões sistemáticas, estudos experimentais e pesquisas quantitativas/qualitativas).
+- **Análise documental** — legislação brasileira (Lei nº 15.100/2025 e LGPD) e documentos da UNESCO.
+- **Entrevista semiestruturada** — realizada em setembro de 2026 com um professor com mais de 25 anos de experiência na rede pública de São Paulo e no Centro Paula Souza.
 
-O documento completo, com todas as seções e referências no padrão ABNT, está disponível em [`assets/Integra_Campus.pdf`](./assets/Integra_Campus.pdf).
+Da entrevista emergiram cinco categorias incorporadas ao projeto: distração e perda de foco, o celular como ferramenta pedagógica, sobrecarga de trabalho docente, participação da família e a blacklist colaborativa.
 
 ---
 
-## 🔒 Privacidade e LGPD
+## 🌐 Estrutura do site (GitHub Pages)
 
-O Integra Campus foi desenhado desde a concepção em conformidade com a **Lei Geral de Proteção de Dados (Lei nº 13.709/2018)**:
+| Arquivo | Descrição |
+|---|---|
+| `index.html` | Página inicial do projeto — problema, solução, diferenciais, equipe e visão geral |
+| `documentacao.html` | Leitor estilizado da documentação completa do projeto, com resumo de cada seção |
+| `simulacao.html` | Simulação interativa do funcionamento do SuperApp |
+| `simulacao_app.html` | Protótipo navegável do aplicativo |
+| `styles.css` | Folha de estilos compartilhada entre as páginas |
+| `assets/Integra_Campus.pdf` | Documento completo do projeto (Hackaton HackTudo) |
+| `assets/Referencias.zip` | Pacote com os principais artigos científicos citados na revisão bibliográfica |
 
-- Coleta mínima de dados, com finalidade exclusivamente educacional
-- Nenhum acesso a mensagens, fotos, conversas ou conteúdo de tela do estudante
-- O professor recebe apenas alertas de comportamento digital — nunca visualiza a tela do aluno
-- Transparência: o estudante sabe quais regras estão ativas a qualquer momento
+---
+
+## 📊 Impactos esperados
+
+Os impactos previstos foram organizados em quatro dimensões:
+
+- **Aprendizagem** — maior concentração, redução de distrações e aprendizagem personalizada via IA.
+- **Trabalho docente** — automação de relatórios e alertas, reduzindo a sobrecarga administrativa.
+- **Participação das famílias** — painel transparente e campanha de conscientização digital.
+- **Saúde mental e bem-estar digital** — limites saudáveis de uso, pausas inteligentes e rede de apoio.
+
+---
+
+## ⚠️ Limitações e trabalhos futuros
+
+O projeto reconhece limitações importantes: validação qualitativa com apenas um especialista, ausência de piloto em ambiente escolar real e impactos ainda baseados em literatura e modelagem, não em dados longitudinais próprios.
+
+Como trabalhos futuros, estão previstos: integração com wearables, IA generativa para tutoria personalizada, painéis para psicólogos escolares e expansão para redes públicas em escala nacional.
 
 ---
 
@@ -110,10 +104,25 @@ O Integra Campus foi desenhado desde a concepção em conformidade com a **Lei G
 - Melissa Hollanda de Oliveira Alves
 - Victória de Almeida Tambasco
 
-Projeto desenvolvido para o **HackaTudo 2026** — Alfenas, 2026.
+Alfenas — 2026
+
+---
+
+## 📚 Principais referências
+
+- SUNDAY, ADESOPE & MAARHUIS (2021) — *The effects of smartphone addiction on learning: A meta-analysis*
+- CAMPBELL et al. (2024) — *Evidence for and against banning mobile phones in schools: A scoping review*
+- UNESCO — *Global Education Monitoring Report 2023*
+- BRASIL — Lei nº 15.100/2025 e Lei nº 13.709/2018 (LGPD)
+
+A lista completa com as 36 referências (ABNT NBR 6023:2018) está disponível no [PDF do projeto](assets/Integra_Campus.pdf).
 
 ---
 
 ## 📄 Licença
 
-Protótipo conceitual desenvolvido para fins de competição (HackaTudo). Consulte a equipe antes de reutilizar o conteúdo ou a identidade visual do projeto.
+Protótipo conceitual desenvolvido para o HackaTudo 2026. Consulte a equipe Hack'n Roll para uso ou reprodução do conteúdo.
+
+---
+
+*Feito com dados científicos, entrevista de campo e muito café. ☕*

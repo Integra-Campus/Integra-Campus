@@ -30,10 +30,10 @@ A proposta é sustentada por uma revisão de **36 referências científicas (201
 
 | Página | Descrição |
 |---|---|
-| [`index.html`](./index.html) | Página inicial do projeto — apresentação, solução e equipe |
-| [`documentacao.html`](./documentacao.html) | Leitor estilizado do documento completo do projeto (HackaTudo) |
-| [`simulacao.html`](./simulacao.html) | Simulação interativa em formato de dashboard (desktop), com os 4 perfis de acesso |
-| [`simulacao_app.html`](./simulacao_app.html) | Protótipo interativo do **app mobile**, em mockup de celular |
+| [`Home Page`](Integra-Campus.github.io) | Página inicial do projeto — apresentação, solução e equipe |
+| [`Documentação`](Integra-Campus.github.io/documentacao.html) | Leitor estilizado do documento completo do projeto (HackaTudo) |
+| [`Simulação PC`](https://integra-campus.github.io/simulacao_app.html) | Simulação interativa em formato de dashboard (desktop), com os 4 perfis de acesso |
+| [`Simulação App`](https://integra-campus.github.io/simulacao.html) | Protótipo interativo do **app mobile**, em mockup de celular |
 
 ## 📱 Protótipo do app mobile — `simulacao_app.html`
 
